@@ -9,7 +9,8 @@ class OrdenDePagoTest {
     @Test
     public void testGetNumeroOrdenDePago() {
         OrdenDePago ordenDePago = new OrdenDePago("PA93003", "VE89344", "CL40123", "EN6793", 560020);
-        assertEquals("PA93003", ordenDePago.getNumeroOrdenDePago());
+        assertEquals("asdasd", ordenDePago.getNumeroOrdenDePago());
+        //assertEquals("PA93003", ordenDePago.getNumeroOrdenDePago());
     }
 
     @Test
